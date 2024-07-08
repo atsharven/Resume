@@ -1,141 +1,314 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atharv Sen's Resume</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #2b2b2b;
+            color: #f0f4f8;
+        }
+
+        header {
+            background-image: url('background.jpg'); /* Link to your background image */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            padding: 3rem 0;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        header::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+            z-index: 1;
+        }
+
+        header img.profile {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid #fff;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            top: 20px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            z-index: 2;
+        }
+
+        header img.profile:hover {
+            transform: translateX(-50%) scale(1.25);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        header h1 {
+            margin-top: 180px;
+            font-size: 2.8rem;
+            color: #ffffff;
+            animation: slideInDown 1s ease-out;
+            z-index: 2;
+            position: relative;
+        }
+        
+
+        header p {
+            margin: 0;
+            font-size: 1.3rem;
+            color: #ebe0e0;
+            font-style: italic;
+            animation: slideInUp 1s ease-out;
+            z-index: 2;
+            position: relative;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1.5rem;
+            margin-top: 1rem;
+            z-index: 2;
+            position: relative;
+        }
+
+        .contact-info a {
+            color: #9c90ee;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .contact-info a:hover {
+            color: #584ac4;
+        }
+
+        main {
+            padding: 2rem;
+            background-color: #282828;
+        }
+
+        section {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background-color: #3f3f3f;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        section h2 {
+            margin-bottom: 1rem;
+            font-size: 1.8rem;
+            color: #9c92ea;
+        }
+
+        section p,
+        section ul,
+        section li {
+            margin: 0.5rem 0;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            background: #575757;
+            margin: 0.5rem 0;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            transition: background 0.3s ease;
+        }
+
+        ul li:hover {
+            background: #717171;
+        }
+
+        .job-date {
+            float: right;
+            font-style: italic;
+            color: #b1a7ef;
+        }
+
+        .courses li,
+        .interests li {
+            background: none;
+            padding: 0;
+        }
+    </style>
 </head>
+
 <body>
-    <header class="animate__animated animate__fadeIn">
-        <img src="profile.jpg" alt="Atharv Sen" class="animate__animated animate__zoomIn">
-        <h1 class="animate__animated animate__slideInDown">Atharv Sen</h1>
-        <p class="animate__animated animate__slideInUp">Data Science Enthusiast | Finance | AI | Technology</p>
+    <header>
+        <img src="profile.jpg" alt="Atharv Sen Profile Picture" class="profile">
+        <h1>Atharv Sen</h1>
+        <p>Summer Intern</p>
+        <div class="contact-info">
+            <a href="tel:+917251008864">+91 7251008864</a>
+            <a href="mailto:atsarin11@gmail.com">atsarin11@gmail.com</a>
+            <a href="https://www.linkedin.com/in/atharvsen" target="_blank">LinkedIn</a>
+        </div>
     </header>
-
+    
     <main>
-        <!-- Contact Information Section -->
-        <section id="contact" class="animate__animated animate__fadeInUp">
-            <h2><i class="fas fa-address-card"></i> Contact Information</h2>
-            <p>Phone: +91 7251008864</p>
-            <p>Email: <a href="mailto:atsarin11@gmail.com">atsarin11@gmail.com</a></p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/atharvsen" target="_blank">LinkedIn.com/atharvsen</a></p>
-        </section>
-
-        <!-- Professional Summary Section -->
-        <section id="summary" class="animate__animated animate__fadeInUp">
-            <h2><i class="fas fa-user"></i> Professional Summary</h2>
+        <section id="professional-summary" class="animated-section">
+            <h2>Professional Summary</h2>
             <p>A data science enthusiast with a fervent passion for finance, AI, and technology. Demonstrated leadership in project management and event orchestration, having helped organize events and led teams. Proficient in Python, SQL, and machine learning, with experience in experimenting with predictive models for stock analysis and drone security. Dedicated to leveraging data for informed decision-making and effective team collaboration. Seeking opportunities to apply both management and technical expertise in a dynamic environment.</p>
         </section>
-
-        <!-- Skills Section -->
-        <section id="skills" class="animate__animated animate__fadeInUp">
-            <h2><i class="fas fa-cogs"></i> Skills</h2>
+        <section id="skills">
+            <h2>Skills</h2>
             <ul>
-                <li><strong>Programming Languages:</strong> Python, SQL, C/C++, JAVA, HTML, CSS, JS</li>
-                <li><strong>Technical Skills:</strong> Machine Learning, Artificial Intelligence, Data Analytics</li>
-                <li><strong>Soft Skills:</strong> Analytical Thinking, Problem-Solving, Communication & Networking</li>
+                <li>Programming Languages: Python, SQL, C/C++, JAVA, HTML, CSS, JS</li>
+                <li>Technical Skills: Machine Learning, Artificial Intelligence, Data Analytics</li>
+                <li>Soft Skills: Analytical Thinking, Problem-Solving, Communication & Networking</li>
             </ul>
         </section>
-
-        <!-- Work Experience Section -->
-        <section id="experience" class="animate__animated animate__fadeInUp">
-            <h2><i class="fas fa-briefcase"></i> Work Experience</h2>
-            <h3>Skyrobee Aerolabs, MIT, Manipal</h3>
-            <p><em>AI-ML Dev</em> &ndash; May 2024 - Present</p>
+        <section id="work-experience" class="animated-section">
+            <h2>Work Experience</h2>
             <ul>
-                <li>Developing computer vision applications for drone security solutions.</li>
-                <li>Implementing AI-ML models to enhance drone capabilities.</li>
-                <li>Collaborating with a team for optimized performance in real-world scenarios.</li>
-            </ul>
-            <h3>Indian Oil Corporation, New Delhi</h3>
-            <p><em>Intern</em> &ndash; June 2023 - Aug 2023</p>
-            <ul>
-                <li>Conducted ML platform benchmarking in collaboration with AT Kearney, handling confidential data.</li>
-                <li>Led research on startup collaborations, contributing to global strategy and market insights.</li>
-                <li>Analyzed data and provided insights to enhance IOCL's operations and reporting.</li>
-            </ul>
-        </section>
-
-        <!-- Projects Section -->
-        <section id="projects" class="animate__animated animate__fadeInUp">
-            <h2><i class="fas fa-project-diagram"></i> Projects</h2>
-            <h3>Stock Prediction Analysis (Self-initiated Project)</h3>
-            <p><em>April 2024 – Present</em></p>
-            <ul>
-                <li>Engineered features and processed stock data for price prediction.</li>
-                <li>Applied CNN, transformer, and LSTM models using Python on Google Colab.</li>
-                <li>Achieved 30-40% prediction accuracy with a focus on risk-reward scenarios.</li>
-            </ul>
-            <h3>AutoInfo: A website about car info</h3>
-            <p><em>Oct 2023 - Nov 2023</em></p>
-            <ul>
-                <li>Developed car information website using HTML, CSS, JavaScript, PHP, MongoDB.</li>
-                <li>Emphasized SEO, clean UI, and features like car specification and comparison.</li>
-            </ul>
-            <h3>Student Database Management System</h3>
-            <p><em>Mar 2023 - May 2023</em></p>
-            <ul>
-                <li>Developed a MySQL-based system for optimized data handling.</li>
-                <li>Improved user experience with modern UI using HTML, CSS, and PHP.</li>
+                <li>
+                    <strong>AI-ML Dev</strong> at Skyrobee Aerolabs MIT, Manipal <span class="job-date">May 2024 - Present</span>
+                    <ul>
+                        <li>Developing computer vision applications for drone security solutions.</li>
+                        <li>Implementing AI-ML models to enhance drone capabilities.</li>
+                        <li>Collaborating with a team for optimized performance in real-world scenarios.</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Intern</strong> at Indian Oil Corporation, New Delhi <span class="job-date">June 2023 - Aug 2023</span>
+                    <ul>
+                        <li>Conducted ML platform benchmarking (Software like Alteryx, Dataiku, Knime analytics etc.) in collaboration with AT Kearney, handling confidential data.</li>
+                        <li>Led research on startup collaborations, contributing to global strategy and market insights.</li>
+                        <li>Analyzed data and provided insights to enhance IOCL's operations and reporting.</li>
+                    </ul>
+                </li>
             </ul>
         </section>
-
-        <!-- Education Section -->
-        <section id="education" class="animate__animated animate__fadeInUp">
-            <h2><i class="fas fa-graduation-cap"></i> Education</h2>
-            <h3>Bachelor of Technology, Manipal Institute of Technology, Manipal</h3>
-            <p><em>Sept 2021 - Present</em></p>
-            <p>B. Tech in Data Science and Engineering</p>
-            <h3>Senior Secondary, Shiv Jyoti, Kota</h3>
-            <p><em>April 2019 - June 2021</em></p>
-            <p>Scored 92.6% in CBSE Board</p>
-            <h3>High School, Delhi Public School, Mathura</h3>
-            <p><em>April 2016 – Mar 2019</em></p>
-            <p>Scored 97.6% in CBSE Board Exams</p>
-        </section>
-
-        <!-- Position of Responsibilities Section -->
-        <section id="responsibilities" class="animate__animated animate__fadeInUp">
-            <h2><i class="fas fa-tasks"></i> Position of Responsibilities</h2>
+        <section id="projects" class="animated-section">
+            <h2>Projects</h2>
             <ul>
-                <li><strong>Music Head, Aaina Dramatics:</strong> Oct 2023 - Present</li>
-                <li><strong>E-Cell Executive:</strong> Feb 2023 - Nov 2023</li>
-                <li><strong>ProShow Organizing Committee, Revels 2023:</strong> Jan 2023 - Mar 2023</li>
-                <li><strong>IOSD Management Committee Member:</strong> Aug 2022 - April 2023</li>
-                <li><strong>E-Cell Associate:</strong> Jan 2022 - Feb 2023</li>
+                <li>
+                    <strong>Stock Prediction Analysis</strong> (Self-initiated Project) <span class="job-date">April 2024 – Present</span>
+                    <ul>
+                        <li>Engineered features and processed stock data for price prediction.</li>
+                        <li>Applied CNN, transformer, and LSTM models using Python on Google Colab.</li>
+                        <li>Achieved 30-40% prediction accuracy with a focus on risk-reward scenarios.</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>AutoInfo: A website about car info</strong> <span class="job-date">Oct 2023 - Nov 2023</span>
+                    <ul>
+                        <li>Project for Car Information using HTML, CSS, JavaScript, PHP, MongoDB.</li>
+                        <li>Emphasis on SEO, clean UI, and features like car specification, comparison for future expansion.</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Student Database Management System</strong> <span class="job-date">Mar 2023 - May 2023</span>
+                    <ul>
+                        <li>Developed a MySQL-based system for optimized data handling.</li>
+                        <li>Improved user experience with modern UI using HTML, CSS, and PHP, including user-friendly login options for streamlined accessibility.</li>
+                    </ul>
+                </li>
             </ul>
         </section>
-
-        <!-- Courses (Certifications) Section -->
-        <section id="courses" class="animate__animated animate__fadeInUp">
-            <h2><i class="fas fa-certificate"></i> Courses (Certifications)</h2>
+        <section id="education" class="animated-section">
+            <h2>Education</h2>
             <ul>
-                <li>Neural Networks and Deep Learning (DeepLearning.AI) - May 2024</li>
-                <li>Machine Learning with Python (with Honors) (IBM) - April 2024</li>
-                <li>AutoML (DeepLearning.AI, Amazon Web Services) - Nov 2023</li>
-                <li>Exploratory Data Analysis for Machine Learning (Honors) (IBM) - June 2023</li>
-                <li>Java and Graphical User Interface Application Project (Coursera) - Nov 2022</li>
-                <li>Writing Java Application Code (LearnQuest) - Nov 2022</li>
-                <li>Math for AI beginner part 1 Linear Algebra (Korea Advanced Institute of Science and Technology) - May 2022</li>
+                <li>
+                    <strong>Bachelor of Technology</strong>, Manipal Institute of Technology, Manipal <span class="job-date">Sept 2021 - Present</span>
+                    <ul>
+                        <li>B. Tech in Data Science and Engineering</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Senior Secondary</strong>, Shiv Jyoti, Kota <span class="job-date">April 2019 - June 2021</span>
+                    <ul>
+                        <li>Scored 92.6% in CBSE Board</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>High School</strong>, Delhi Public School, Mathura <span class="job-date">April 2016 – Mar 2019</span>
+                    <ul>
+                        <li>Scored 97.6% in CBSE Board Exams</li>
+                    </ul>
+                </li>
             </ul>
         </section>
-
-        <!-- Interests Section -->
-        <section id="interests" class="animate__animated animate__fadeInUp">
-            <h2><i class="fas fa-heart"></i> Interests</h2>
+        <section id="position-of-responsibilities" class="animated-section">
+            <h2>Position of Responsibilities</h2>
+            <ul>
+                <li>
+                    <strong>Music Head, Aaina Dramatics</strong> <span class="job-date">Oct 2023 - Present</span>
+                    <ul>
+                        <li>Led music efforts for inter and intra-college events, contributing to winning plays at NITK, IIM Bangalore, and successful participation at Mood Indigo, IIT Bombay.</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>E-Cell Executive</strong> <span class="job-date">Feb 2023 - Nov 2023</span>
+                    <ul>
+                        <li>Orchestrated Manipal Entrepreneurship Summit 2023, conducted recruitment interviews, showcasing leadership and planning.</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>ProShow Organizing Committee, Revels 2023</strong> <span class="job-date">Jan 2023 - Mar 2023</span>
+                    <ul>
+                        <li>Planned and executed artist unveilings, ensuring logistical requirements were met.</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>IOSD Management Committee Member</strong> <span class="job-date">Aug 2022 - April 2023</span>
+                    <ul>
+                        <li>Organized a workshop with Sandeep Jain from geeksforgeeks.org, enhancing collaboration and event planning skills.</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>E-Cell Associate</strong> <span class="job-date">Jan 2022 - Feb 2023</span>
+                    <ul>
+                        <li>Mentored interns and contributed to TechTatva's success through effective event management.</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <section id="courses" class="animated-section">
+            <h2>Courses (Certifications)</h2>
+            <ul>
+                <li>Neural Networks and Deep Learning (DeepLearning.AI) <span class="job-date">May 2024</span></li>
+                <li>Machine Learning with Python (with Honors) (IBM) <span class="job-date">April 2024</span></li>
+                <li>AutoML (DeepLearning.AI, Amazon Web Services) <span class="job-date">Nov 2023</span></li>
+                <li>Exploratory Data Analysis for Machine Learning (Honors) (IBM) <span class="job-date">June 2023</span></li>
+                <li>Java and Graphical User Interface Application Project (Coursera) <span class="job-date">Nov 2022</span></li>
+                <li>Writing Java Application Code Writing Java Application Code (LearnQuest) <span class="job-date">Nov 2022</span></li>
+                <li>Math for AI beginner part 1 Linear Algebra (Korea Advanced Institute of Science and Technology) <span class="job-date">May 2022</span></li>
+            </ul>
+        </section>
+        <section id="interests" class="animated-section">
+            <h2>Interests</h2>
             <ul>
                 <li>Sports (Badminton – State Level player, Swimming)</li>
                 <li>Musical Instruments (Diploma in Tabla, Synthesizer)</li>
-                <li>Gaming</li>
-                <li>Travelling</li>
+                <li>Traveling</li>
+                <li>Entrepreneurship Enthusiast</li>
+                <li>Exploring and Reviewing Tech Products and Testing Custom OS Features (Android Alpha-Beta Testing)</li>
             </ul>
         </section>
     </main>
 </body>
+
 </html>
+
