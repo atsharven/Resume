@@ -1,6 +1,6 @@
 # Atharv Sen
 
-**+91 7251008864** | **atsarin11@gmail.com** | [LinkedIn](https://linkedin.com/in/atharvsen) | [GitHub](https://github.com/atharvsen) *(add your actual GitHub)* | Hyderabad, India
+**+91 7251008864** | **atsarin11@gmail.com** | [LinkedIn](https://linkedin.com/in/atharvsen) | [GitHub](https://github.com/atsharven) | Hyderabad, India
 
 ## Education
 **B.Tech in Data Science and Engineering**  
