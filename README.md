@@ -1,62 +1,67 @@
 # Atharv Sen
 
-**+91 7251008864** | **atsarin11@gmail.com** | [LinkedIn](https://linkedin.com/in/atharvsen) | [GitHub](https://github.com/atsharven) | Hyderabad, India
+**+91 72510088XX** | **atsarin11@gmail.com** | [LinkedIn](https://linkedin.com/in/atharvsen) | [GitHub](https://github.com/atsharven) | Hyderabad, India
 
 ## Education
-**B.Tech in Data Science and Engineering**  
+**B.Tech in Data Science and Engineering** (Minor: Finance)  
 Manipal Institute of Technology, Manipal  
-Sep 2021 – Jul 2025  
-*(Add CGPA / relevant coursework if strong)*
+Sep 2021 – Jul 2025
 
-**Class XII (CBSE)** — Shiv Jyoti, Kota — 92.6%  
-**Class X (CBSE)** — Delhi Public School, Mathura — 97.6%
+**Class XII (CBSE)** — 92.6% | **Class X (CBSE)** — 97.6%
 
 ## Technical Skills
-**Languages:** Python, SQL, C/C++, Java, HTML/CSS/JavaScript, PHP  
-**Tools & Frameworks:** Jupyter Notebook, VS Code, Git/GitHub, PyCharm, Android Studio, Linux CLI  
-**ML & Data:** TensorFlow, PyTorch, OpenCV, Pandas, NumPy, Scikit-learn, YOLOv5, MobileNetV2 SSD, GridPath
+**Languages:** Python, SQL, Java, C/C++, HTML/CSS, JavaScript, PHP, FastAPI  
+**AI/ML:** LangGraph, TensorFlow, PyTorch, OpenCV, YOLOv5, Scikit-learn, Pandas, NumPy  
+**Tools:** Git/GitHub, Jupyter, VS Code, Linux CLI, MySQL, MongoDB, React/Node (learning)  
+**Domain:** Agentic AI, Computer Vision, Time-series Forecasting, Energy Modelling, ETL Pipelines
 
-## Work Experience
+## Professional Experience
+
+**Backend Developer (Python + Agentic AI)**  
+Deloitte, Hyderabad (Project)  
+[Start Date – Present]
+- Developing **Agentic AI solutions** using **LangGraph** for a payroll comparison and "Talk to Your Data" application, enabling natural language querying over time & payroll datasets.
+- Built Python/FastAPI backend services integrated with SQL databases; contributed to core Java backend components for robust data handling.
+- Collaborating on React + Node.js frontend to deliver end-to-end AI-powered features.
 
 **Data Science Intern**  
 World Resources Institute India (WRI India), Jaipur  
 Jan 2025 – Aug 2025
-- Installed and validated the full GridPath production cost & capacity expansion modelling stack for Rajasthan Integrated Resource Plan (IRP) scenarios (2030–2035), enabling reproducible, scalable workflows for long-term state power system planning.
-- Built robust ETL pipelines (Python, Pandas, SQL) to ingest, clean, and harmonize large-scale energy datasets into GridPath input templates — drastically reducing manual preparation effort and error rates.
-- Automated end-to-end scenario reporting and interactive visualizations using Jupyter Notebooks and Python scripts; outputs were used directly in stakeholder discussions and state-level energy planning meetings.
+- Installed and validated GridPath production cost & capacity expansion modelling stack for Rajasthan IRP scenarios (2030–2035), creating reproducible workflows for long-term power system planning.
+- Designed ETL pipelines (Python, Pandas, SQL) to clean and harmonize large energy datasets, significantly reducing manual effort and enabling scalable scenario analysis.
+- Automated reporting and visualizations in Jupyter Notebooks; deliverables directly supported stakeholder discussions in state-level energy planning.
 
 **AI-ML Intern**  
 Skyrobee Aerolabs, MIT Manipal  
 May 2024 – Jul 2024
-- Engineered and fine-tuned edge-deployed computer vision models (YOLOv5 + MobileNetV2 SSD) for drone-based threat detection, significantly improving accuracy and reducing inference latency on resource-constrained hardware.
-- Optimized TensorFlow + OpenCV pipelines for real-time human detection, substantially lowering false positives through model quantization and hyperparameter tuning — directly enhancing drone security system reliability.
+- Engineered edge-deployed computer vision models (YOLOv5 + MobileNetV2 SSD) for drone threat detection, improving accuracy and reducing inference latency on constrained hardware.
+- Optimized TensorFlow/OpenCV pipelines for real-time human detection, lowering false positives through model optimization and quantization.
 
 **Intern**  
 Indian Oil Corporation Ltd. (IOCL), New Delhi  
 Jun 2023 – Aug 2023
-- Benchmarked leading ML platforms (Alteryx, Dataiku, Knime) and identified critical workflow bottlenecks; delivered targeted recommendations that improved data analysis efficiency.
-- Conducted in-depth market research on 55+ startups in blockchain, EVs, cryptocurrency, and AI-ML; synthesized data-backed insights to support IOCL’s global strategic initiatives.
+- Benchmarked ML platforms (Alteryx, Dataiku, Knime) and provided recommendations to eliminate workflow bottlenecks.
+- Conducted market research on 55+ startups in AI-ML, blockchain, EVs, and crypto; delivered insights supporting global strategy.
 
 ## Projects
 
 **Stock Price Prediction Analysis** (Self-initiated)  
 Apr 2024 – Jul 2024
-- Performed extensive feature engineering on financial time-series data and implemented CNN, Transformer, and LSTM architectures; gained deep insights into practical limitations and risk-reward trade-offs in real-world forecasting.
+- Built and compared CNN, Transformer, and LSTM models on financial time-series data (leveraging Finance minor knowledge); focused on feature engineering and practical risk-reward evaluation.
 
 **AutoInfo — Car Information Platform**  
 Oct 2023 – Nov 2023
-- Built a full-stack responsive website (HTML, CSS, JavaScript, PHP, MongoDB) for car specification comparison with SEO optimization and intuitive UI/UX, driving higher user engagement.
+- Full-stack website (HTML, CSS, JavaScript, PHP, MongoDB) with SEO, clean UI, and car specification comparison features.
 
 **Student Database Management System**  
 Mar 2023 – May 2023
-- Developed a secure MySQL-based web application with authentication and modern interface that improved data processing efficiency by 25%.
+- Secure MySQL web app with modern UI and authentication; improved data processing efficiency by 25%.
 
-## Leadership & Responsibilities
-- **Music Head, Aaina Dramatics** (Oct 2023 – Oct 2024): Directed music for 15+ inter- and intra-college events; secured 1st prize at NITK & IIM-Bangalore, represented Manipal at Mood-I, IIT Bombay.
-- **E-Cell Executive**: Led organization of Manipal Entrepreneurship Summit 2023 (5,000+ attendees) and handled recruitment & interview processes.
-- **ProShow Organizing Committee, Revels 2023**: Coordinated artist unveilings for 10,000+ participant event.
+## Leadership & Extracurriculars
+- **Music Head, Aaina Dramatics** (Oct 2023 – Oct 2024): Directed music for 15+ events; won 1st prize at NITK & IIM-Bangalore, represented at Mood-I, IIT Bombay.
+- **E-Cell Executive**: Organized Manipal Entrepreneurship Summit 2023 (5,000+ attendees) and managed recruitment.
+- **ProShow Organizing Committee, Revels 2023**: Coordinated artist management for 10,000+ participants.
 
-*(Additional roles: IOSD Management Committee, E-Cell Associate 2022–23)*
+**Certifications** (selected): Neural Networks and Deep Learning (DeepLearning.AI), Machine Learning with Python (IBM), AutoML (DeepLearning.AI + AWS), etc.
 
-## Interests & Achievements
-State-level Badminton & Swimming • Diploma in Tabla & Percussion • Public Speaking • Data Visualization • Photography • Tech Exploration
+**Interests:** State-level Badminton & Swimming, Diploma in Tabla, Public Speaking, Data Visualization, Tech Exploration.
