@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atharv Sen | AI Backend Engineer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', system-ui, sans-serif; }
+        .hero-bg { background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%); }
+        .glass { background: rgba(255,255,255,0.05); backdrop-filter: blur(12px); }
+        .neon-blue { color: #00f5ff; text-shadow: 0 0 10px #00f5ff; }
+        .section-title { position: relative; }
+        .section-title:after { content: ''; position: absolute; bottom: -8px; left: 0; width: 60px; height: 3px; background: linear-gradient(to right, #00f5ff, #a855f7); }
+    </style>
+</head>
+<body class="bg-zinc-950 text-zinc-200">
+
+    <!-- Navbar -->
+    <nav class="fixed top-0 w-full bg-zinc-950/80 backdrop-blur-md z-50 border-b border-zinc-800">
+        <div class="max-w-6xl mx-auto px-6 py-5 flex justify-between items-center">
+            <h1 class="text-2xl font-bold tracking-tight neon-blue">Atharv Sen</h1>
+            <div class="flex gap-8 text-sm font-medium">
+                <a href="#experience" class="hover:text-cyan-400 transition-colors">Experience</a>
+                <a href="#skills" class="hover:text-cyan-400 transition-colors">Skills</a>
+                <a href="#projects" class="hover:text-cyan-400 transition-colors">Projects</a>
+                <a href="#leadership" class="hover:text-cyan-400 transition-colors">Leadership</a>
+                <a href="#contact" class="hover:text-cyan-400 transition-colors">Contact</a>
+            </div>
+            <a href="https://linkedin.com/in/atharvsen" target="_blank" 
+               class="px-5 py-2 bg-white text-black font-semibold rounded-full hover:bg-cyan-400 hover:text-black transition-all flex items-center gap-2">
+                <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero-bg min-h-screen flex items-center pt-20">
+        <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+            <div class="space-y-8">
+                <div class="inline-flex items-center gap-3 px-6 py-2 rounded-full border border-zinc-700 text-sm">
+                    <span class="w-3 h-3 bg-emerald-400 rounded-full animate-pulse"></span>
+                    Open to AI Backend / ML Engineer Roles — Hyderabad + Remote
+                </div>
+                <h1 class="text-6xl md:text-7xl font-bold tracking-tighter leading-none">
+                    Building <span class="neon-blue">Agentic AI</span><br>that actually ships.
+                </h1>
+                <p class="text-xl text-zinc-400 max-w-lg">
+                    B.Tech Data Science & Engineering (Finance Minor) from Manipal. 
+                    Currently building production-grade Agentic AI solutions at Deloitte using LangGraph + FastAPI. 
+                    Ex-WRI India, Skyrobee Aerolabs.
+                </p>
+                <div class="flex gap-4">
+                    <a href="#contact" 
+                       class="px-8 py-4 bg-gradient-to-r from-cyan-400 to-purple-500 text-black font-semibold rounded-2xl hover:scale-105 transition-transform">
+                        Let's Connect
+                    </a>
+                    <a href="https://github.com/atsharven" target="_blank"
+                       class="px-8 py-4 border border-zinc-700 hover:border-cyan-400 rounded-2xl transition-colors flex items-center gap-3">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                </div>
+            </div>
+            <div class="hidden md:flex justify-center">
+                <!-- Add your professional photo here later (replace the div) -->
+                <div class="w-96 h-96 rounded-3xl bg-gradient-to-br from-cyan-500/10 to-purple-500/10 border border-zinc-700 flex items-center justify-center text-8xl">
+                    👨‍💻
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="py-24 bg-zinc-900">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="section-title text-4xl font-bold mb-12">Experience</h2>
+            <div class="space-y-16">
+
+                <!-- Deloitte -->
+                <div class="glass border border-zinc-700 rounded-3xl p-8 hover:border-cyan-400 transition-all">
+                    <div class="flex justify-between items-start mb-6">
+                        <div>
+                            <h3 class="text-2xl font-semibold">Backend Developer — Python + Agentic AI</h3>
+                            <p class="text-cyan-400">Deloitte • Hyderabad</p>
+                        </div>
+                        <p class="text-zinc-500">2025 – Present</p>
+                    </div>
+                    <ul class="space-y-4 text-zinc-300">
+                        <li class="flex gap-3"><span class="text-cyan-400 mt-1">→</span> Developing production Agentic AI solutions using <strong>LangGraph</strong> for a payroll comparison & "Talk to Your Data" application.</li>
+                        <li class="flex gap-3"><span class="text-cyan-400 mt-1">→</span> Building scalable Python/FastAPI backend services with SQL integration and contributing to core Java backend.</li>
+                        <li class="flex gap-3"><span class="text-cyan-400 mt-1">→</span> Collaborating on React + Node.js frontend for end-to-end AI-powered features.</li>
+                    </ul>
+                </div>
+
+                <!-- WRI India -->
+                <div class="glass border border-zinc-700 rounded-3xl p-8 hover:border-cyan-400 transition-all">
+                    <div class="flex justify-between items-start mb-6">
+                        <div>
+                            <h3 class="text-2xl font-semibold">Data Science Intern</h3>
+                            <p class="text-cyan-400">World Resources Institute India (WRI India) • Jaipur</p>
+                        </div>
+                        <p class="text-zinc-500">Jan 2025 – Aug 2025</p>
+                    </div>
+                    <ul class="space-y-4 text-zinc-300">
+                        <li class="flex gap-3"><span class="text-cyan-400 mt-1">→</span> Validated and installed full <strong>GridPath</strong> modelling stack for Rajasthan power system planning (2030–2035).</li>
+                        <li class="flex gap-3"><span class="text-cyan-400 mt-1">→</span> Built robust ETL pipelines (Python, Pandas, SQL) to harmonize large energy datasets.</li>
+                        <li class="flex gap-3"><span class="text-cyan-400 mt-1">→</span> Automated scenario reporting and visualizations used in state-level stakeholder discussions.</li>
+                    </ul>
+                </div>
+
+                <!-- Skyrobee -->
+                <div class="glass border border-zinc-700 rounded-3xl p-8 hover:border-cyan-400 transition-all">
+                    <div class="flex justify-between items-start mb-6">
+                        <div>
+                            <h3 class="text-2xl font-semibold">AI-ML Intern</h3>
+                            <p class="text-cyan-400">Skyrobee Aerolabs • MIT Manipal</p>
+                        </div>
+                        <p class="text-zinc-500">May 2024 – Jul 2024</p>
+                    </div>
+                    <ul class="space-y-4 text-zinc-300">
+                        <li class="flex gap-3"><span class="text-cyan-400 mt-1">→</span> Engineered edge-deployed computer vision models (<strong>YOLOv5 + MobileNetV2 SSD</strong>) for drone threat detection.</li>
+                        <li class="flex gap-3"><span class="text-cyan-400 mt-1">→</span> Optimized TensorFlow + OpenCV pipelines — improved real-time human detection and reduced false positives.</li>
+                    </ul>
+                </div>
+
+                <!-- IOCL -->
+                <div class="glass border border-zinc-700 rounded-3xl p-8 hover:border-cyan-400 transition-all">
+                    <div class="flex justify-between items-start mb-6">
+                        <div>
+                            <h3 class="text-2xl font-semibold">Intern</h3>
+                            <p class="text-cyan-400">Indian Oil Corporation Ltd. (IOCL) • New Delhi</p>
+                        </div>
+                        <p class="text-zinc-500">Jun 2023 – Aug 2023</p>
+                    </div>
+                    <ul class="space-y-4 text-zinc-300">
+                        <li class="flex gap-3"><span class="text-cyan-400 mt-1">→</span> Benchmarked ML platforms (Alteryx, Dataiku, Knime) and delivered workflow improvement recommendations.</li>
+                        <li class="flex gap-3"><span class="text-cyan-400 mt-1">→</span> Researched 55+ startups in AI-ML, blockchain, EVs & crypto for global strategy insights.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="py-24">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="section-title text-4xl font-bold mb-12">Technical Arsenal</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                <div class="glass border border-zinc-700 rounded-3xl p-8 hover:border-cyan-400 transition-all">
+                    <h4 class="font-semibold mb-6 text-cyan-400">Languages</h4>
+                    <div class="flex flex-wrap gap-3">
+                        <span class="px-4 py-2 bg-zinc-800 rounded-2xl text-sm">Python</span>
+                        <span class="px-4 py-2 bg-zinc-800 rounded-2xl text-sm">FastAPI</span>
+                        <span class="px-4 py-2 bg-zinc-800 rounded-2xl text-sm">SQL</span>
+                        <span class="px-4 py-2 bg-zinc-800 rounded-2xl text-sm">Java</span>
+                        <span class="px-4 py-2 bg-zinc-800 rounded-2xl text-sm">JavaScript</span>
+                    </div>
+                </div>
+                <div class="glass border border-zinc-700 rounded-3xl p-8 hover:border-cyan-400 transition-all">
+                    <h4 class="font-semibold mb-6 text-cyan-400">AI/ML</h4>
+                    <div class="flex flex-wrap gap-3">
+                        <span class="px-4 py-2 bg-zinc-800 rounded-2xl text-sm">LangGraph</span>
+                        <span class="px-4 py-2 bg-zinc-800 rounded-2xl text-sm">TensorFlow</span>
+                        <span class="px-4 py-2 bg-zinc-800 rounded-2xl text-sm">PyTorch</span>
+                        <span class="px-4 py-2 bg-zinc-800 rounded-2xl text-sm">YOLOv5</span>
+                        <span class="px-4 py-2 bg-zinc-800 rounded-2xl text-sm">OpenCV</span>
+                    </div>
+                </div>
+                <div class="glass border border-zinc-700 rounded-3xl p-8 hover:border-cyan-400 transition-all">
+                    <h4 class="font-semibold mb-6 text-cyan-400">Tools & Others</h4>
+                    <div class="flex flex-wrap gap-3">
+                        <span class="px-4 py-2 bg-zinc-800 rounded-2xl text-sm">Git • GitHub</span>
+                        <span class="px-4 py-2 bg-zinc-800 rounded-2xl text-sm">Pandas • NumPy</span>
+                        <span class="px-4 py-2 bg-zinc-800 rounded-2xl text-sm">GridPath</span>
+                        <span class="px-4 py-2 bg-zinc-800 rounded-2xl text-sm">React / Node (Learning)</span>
+                    </div>
+                </div>
+                <div class="glass border border-zinc-700 rounded-3xl p-8 hover:border-cyan-400 transition-all">
+                    <h4 class="font-semibold mb-6 text-cyan-400">Domain</h4>
+                    <div class="space-y-3 text-zinc-300">
+                        <p>→ Agentic AI Systems</p>
+                        <p>→ Computer Vision (Edge)</p>
+                        <p>→ Energy System Modelling</p>
+                        <p>→ Time-series Forecasting</p>
+                        <p>→ ETL & Data Pipelines</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="py-24 bg-zinc-900">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="section-title text-4xl font-bold mb-12">Featured Projects</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+
+                <div class="glass border border-zinc-700 rounded-3xl overflow-hidden hover:border-cyan-400 transition-all">
+                    <div class="h-48 bg-gradient-to-br from-purple-500/20 to-cyan-500/20 flex items-center justify-center text-6xl">📈</div>
+                    <div class="p-8">
+                        <h3 class="font-semibold text-xl mb-3">Stock Price Prediction</h3>
+                        <p class="text-zinc-400 mb-6">Compared CNN, Transformer & LSTM architectures on financial time-series data. Leveraged Finance minor for feature engineering and risk analysis.</p>
+                        <span class="text-xs uppercase tracking-widest text-cyan-400">Python • PyTorch/TF • Time-series</span>
+                    </div>
+                </div>
+
+                <div class="glass border border-zinc-700 rounded-3xl overflow-hidden hover:border-cyan-400 transition-all">
+                    <div class="h-48 bg-gradient-to-br from-emerald-500/20 to-cyan-500/20 flex items-center justify-center text-6xl">🚗</div>
+                    <div class="p-8">
+                        <h3 class="font-semibold text-xl mb-3">AutoInfo — Car Platform</h3>
+                        <p class="text-zinc-400 mb-6">Full-stack car specification comparison website with SEO, clean UI, and MongoDB backend.</p>
+                        <span class="text-xs uppercase tracking-widest text-cyan-400">HTML/CSS/JS • PHP • MongoDB</span>
+                    </div>
+                </div>
+
+                <div class="glass border border-zinc-700 rounded-3xl overflow-hidden hover:border-cyan-400 transition-all">
+                    <div class="h-48 bg-gradient-to-br from-amber-500/20 to-cyan-500/20 flex items-center justify-center text-6xl">📊</div>
+                    <div class="p-8">
+                        <h3 class="font-semibold text-xl mb-3">Student Database System</h3>
+                        <p class="text-zinc-400 mb-6">Secure MySQL web app with modern UI and authentication. Improved data processing efficiency by 25%.</p>
+                        <span class="text-xs uppercase tracking-widest text-cyan-400">MySQL • PHP • HTML/CSS</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Leadership -->
+    <section id="leadership" class="py-24">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="section-title text-4xl font-bold mb-12">Leadership & Impact</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="glass border border-zinc-700 rounded-3xl p-10">
+                    <h3 class="text-2xl font-semibold mb-4">Music Head, Aaina Dramatics</h3>
+                    <p class="text-zinc-400">Directed music for 15+ inter & intra-college events. Secured 1st prize at NITK & IIM Bangalore. Represented at Mood-I, IIT Bombay.</p>
+                </div>
+                <div class="glass border border-zinc-700 rounded-3xl p-10">
+                    <h3 class="text-2xl font-semibold mb-4">E-Cell Executive</h3>
+                    <p class="text-zinc-400">Orchestrated Manipal Entrepreneurship Summit 2023 (5,000+ attendees) and managed recruitment processes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-24 bg-zinc-900">
+        <div class="max-w-6xl mx-auto px-6 text-center">
+            <h2 class="text-5xl font-bold mb-8">Ready to build something big?</h2>
+            <p class="text-2xl text-zinc-400 mb-12 max-w-2xl mx-auto">Let's talk AI, backend systems, or how I can contribute to your team in Hyderabad or remotely.</p>
+            <div class="flex flex-col sm:flex-row gap-6 justify-center">
+                <a href="mailto:atsarin11@gmail.com" 
+                   class="px-10 py-6 text-xl font-semibold border-2 border-cyan-400 rounded-3xl hover:bg-cyan-400 hover:text-black transition-all">
+                    atsarin11@gmail.com
+                </a>
+                <a href="tel:+917251008864" 
+                   class="px-10 py-6 text-xl font-semibold border-2 border-zinc-700 rounded-3xl hover:border-white transition-all">
+                    +91 7251008864
+                </a>
+            </div>
+            <p class="mt-16 text-zinc-500">Hyderabad, India • Open to opportunities</p>
+        </div>
+    </section>
+
+    <footer class="py-12 text-center text-zinc-500 text-sm border-t border-zinc-800">
+        © 2026 Atharv Sen • Built with intention on GitHub Pages
+    </footer>
+
+    <script>
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                if (this.getAttribute('href') !== '#') {
+                    e.preventDefault();
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
